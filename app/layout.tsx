@@ -15,9 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body  >
+      <body   >
         <Navbar />
-        {children}
+        <main className="mt-20">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
